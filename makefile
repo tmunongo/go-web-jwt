@@ -1,7 +1,7 @@
 BINARY_NAME=tooter
 
 build:
-	GOARCH=amd64 GOOS=linux go build -o bin/${BINARY_NAME} main.go
+	GOARCH=amd64 GOOS=linux go build -o bin/${BINARY_NAME} cmd/main.go
 
 run: build
 		go run bin/${BINARY_NAME}

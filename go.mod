@@ -3,6 +3,7 @@ module github.com/tmunongo/go-web-jwt
 go 1.21.6
 
 require (
+	github.com/golang-jwt/jwt/v5 v5.2.0 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20231201235250-de7065d80cb9 // indirect
 	github.com/jackc/pgx/v5 v5.5.2 // indirect
